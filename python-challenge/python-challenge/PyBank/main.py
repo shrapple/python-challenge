@@ -31,7 +31,6 @@ with open(csvpath_csv) as csvfile:
 #next row is being checked against itself, and then moves on to
 # the next row to check for the demands created, here 
 # using greater or less than with the change between months
-#SHOUT OUT to tutor Matt Werth!
         if change > greatest_increase:
             greatest_increase = change
             greatest_increase_date = dates
